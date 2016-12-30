@@ -1,0 +1,235 @@
+
+				*{
+					font-family: "微软雅黑";
+					margin: 0;
+					padding: 0;
+					font-size: 12px;
+			
+				}
+				
+				#Box{
+					width: 1600px;
+					
+				}
+				/*网站头部导航*/
+				.B_header{
+					width: 1600px;
+					height: 70px;
+					background-image:url(../img/header.jpg) ;
+				}
+				
+				/*头部左侧导航*/
+						#h_left{
+							float: left;
+							color: #4e5f65;
+							font-size: 12px;
+							padding-left:218px;
+							padding-top:30px;
+						}
+						#h_nav{
+							float: right;
+							padding-right: 110px;
+							padding-top: 30px;
+						}
+						#h_nav a{
+							font-size: 12px;
+							color: white;
+							margin-right: 24px;
+						}
+						a{
+							text-decoration: none;
+						}
+						#h_nav a:hover{
+							border-bottom: 1px solid #34b8f0;
+							padding-bottom: 18px;
+						}
+				
+				/*轮播图*/
+				.B_nav{
+					height: 730px;
+				}
+				
+				/*辰硕产品*/
+				.B_cscp{
+					height: 460px;
+					background-color: #f4f7f9;
+					position: relative;
+				}
+				
+				/*产品标题*/
+						.T_bt{
+							text-align: center;
+							padding-top: 50px;
+						}
+						
+						.T_bt h3{
+							font-size: 24px;
+							color: #1ab798;
+						}
+						.T_bt h5{
+							font-size: 14px;
+						}
+						/*产品具体内容3部分*/
+						#T_cp{
+							column-count: 3;
+							column-gap: 20px;
+							margin-left: 225px;
+							margin-right: 230px;
+						}
+						/*辰硕产品介绍文本*/
+						.csjs_word{
+							margin-top: 20px;
+							padding-left:80px;
+							line-height: 20px;
+						}
+						/*辰硕产品介绍标题*/
+						.t_bt{
+							font-weight: bold;
+							font-size: 18px;
+						}
+						/*辰硕产品英语介绍*/
+						.t_english{
+							font-weight:lighter;
+							font-size:8px;
+							
+						}
+						/*辰硕产品汉语介绍*/
+						.t_hanyu{
+							display: block;
+							font-weight: normal;
+						}
+
+				/*案例分享*/	
+				.B_alfx{
+					height:930px;
+					background-color: #FFFFFF;
+					text-align: center;
+					
+				}
+						/*分享的文字*/
+						.Al_word{
+							font-size: 16px;
+							font-weight: bold;
+						}
+						/*按钮*/
+						/*有使用bootstrap框架经验,写按钮.但是此处没有引入bootstrap,使用css制作*/
+						#Al_btn{
+							height: 30px;
+							margin-left: 546px;
+							font-weight: bold;
+						}
+						/*具体分类*/
+						#Al_btn li{
+							border: solid 0px;
+							list-style: none;
+							float: left;
+							margin-top: 50px;
+							margin-left:26px;
+							padding:8px 17px;
+							
+						}
+						/*按钮'全部'*/
+						.albtn{
+							
+							border-radius: 5px;
+							background-color: #0eb493;
+							color: #FFFFFF;
+						}
+						
+						/*案例展示*/
+						.Al_zs{
+							width: 1600px;
+							height: 606px;
+							margin-top: 112px;
+							
+							background-color: #2a283e;
+						}
+						/*展示图片*/
+						.Al_zs img{
+							margin-top: 30px;
+							margin-left: 30px;
+						}
+						
+				/*团队介绍*/
+				#B_Team{
+					height: 870px;
+					text-align: center;
+					font-weight: bold;
+				}
+						/*内容*/
+						.T_nr{
+						width:1388px;
+						height:646px;
+						margin-left: 202px;
+						
+						}
+						/*团队*/
+						.T_team{
+							margin-top: 112px;
+							padding-left: 30px;
+							float: left;
+							line-height: 20px;
+						}
+						
+						/*团队人物介绍*/
+						.Team_word{
+							font-size: 16px;
+						
+						}
+						/*团队人物展示*/
+						.Team_zc{
+							font-size:12px;
+							color: gray;
+						}
+						
+				
+				/*专业服务*/
+				.T_zyfw{
+					width: 1600px;
+					height: 600px;
+					background-image: url(../img/zyfw.jpg);
+				}
+				/*公司地址*/
+				.dz{
+					height: 500px;
+					background-image: url(../img/dz.jpg);
+					border-bottom:solid 4px #062033;
+				}
+				
+				#gsdz{
+					width: 1390px;
+					height: 356px;
+					background-color: #37bda1;
+					padding-left: 210px;
+					padding-top: 90px;
+					line-height: 50px;
+				}
+				
+				#gsdz span{
+					
+					display: block;
+					float: left;
+					
+					margin-right: 60px;
+				}
+				/*地址标题*/
+				.gsdz_bt{
+					font-size: 26px;
+					color: #FFFFFF;
+				}
+				/*地址具体详情*/
+				.gsdz_xq{
+					font-size: 20px;
+					color: #FFFFFF;
+				}
+				/*版权*/
+				#banquan{
+					padding-left: 260px;
+					padding-top: 166px;
+				}
+				/*底部缺省条*/
+				#H_db{
+					width: 1600px;
+					height: 78px;
+					background-color: #1ea78d;					
+				}
